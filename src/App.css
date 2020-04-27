@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  background-color: white;
+}
+.load-animation{
+  height:15vmin;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.smaller{
+  height:8vmin;
+  display: block;
+  width:20vw;
+}
+@media screen and (min-width: 768px) {
+  .smaller {
+    width: 30vmin;
+    position: relative;
+    margin-bottom: 1%;
+    margin-top: 1%;
+  }
+}
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
